@@ -15,12 +15,12 @@ group "com.example"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
-apply plugin:"war"
+//apply plugin:"war"
 apply plugin:"org.grails.grails-web"
 apply plugin:"com.github.erdi.webdriver-binaries"
 apply plugin:"org.grails.grails-gsp"
 apply plugin:"com.bertramlabs.asset-pipeline"
-
+bootJar.enabled = true
 repositories {
     maven { url "https://repo.grails.org/grails/core" }
 }
